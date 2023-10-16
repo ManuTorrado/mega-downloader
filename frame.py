@@ -12,11 +12,20 @@ ventana.title("Mi Ventana Tkinter")
 # Opcional: Configura las dimensiones de la ventana (ancho x alto)
 ventana.geometry("400x300")
 
+
+download_button = tk.Button(text="Download")
+download_button.pack()
+
+
 # Opcional: Agrega widgets (como etiquetas, botones, etc.) a la ventana
-inp = tk.inputtxt.get(1.0, "end-1c") 
+cuadro_texto = tk.Entry(ventana)
+cuadro_texto.pack()
+
+
+
 etiqueta = tk.Label(ventana, text="Downloader")
 etiqueta.pack()  # Coloca el widget en la ventana
-
+#etiqueta.pack_forget()
 # Opcional: Define funciones para responder a eventos
 
 

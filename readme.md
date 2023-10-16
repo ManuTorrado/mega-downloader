@@ -1,4 +1,9 @@
 ## Automatic Mega.nz downloader
 
-Import enviroment variable for windows
+Implements mega CLI
+
+https://mega.io/es/developers
+
+Import enviroment variable for Windows Powershell
+
 `$env:PATH += ";$env:LOCALAPPDATA\MEGAcmd"`
